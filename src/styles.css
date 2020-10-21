@@ -1,0 +1,93 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "@fortawesome/fontawesome-free/css/all.css";
+
+body {
+  padding-top: 80px;
+  
+}
+.card-img-top {
+  height: 67% !important;
+  object-fit: cover;
+}
+.image-responsive {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.card {
+  height: 400px;
+ 
+}
+.card-title {
+  font-size: 17px;
+  word-break: keep-all !important;
+}
+
+.nav-item {
+  font-size: 19px;
+}
+.vertical-center {
+  min-height: 100%;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+}
+.bg-dark {
+  background-color: #ffa207!important;
+}.color-yellow{
+  color:  #ffa207;
+}
+.btn-primary {
+  background-color: #ffa207 !important;
+  border-color: #ffa207 !important;
+}.btn-secondary{
+  background-color: #ffa207 !important;
+  border-color: #ffa207 !important;
+}.navbar-dark .navbar-nav .nav-link {
+  color: #545b62;
+  font-weight: bold;
+}.list-group-item.active {
+  z-index: 2;
+  color: #fff;
+  background-color: #787b7f;
+  border-color: #6c757d;
+}.badge-warning {
+  color: white;
+  background-color: orangered;
+}
+
+@media only screen and (max-width: 800px) {
+  .card {
+    height: 270px;
+  }
+  .card-title {
+    font-size: 10px;
+    margin-top: -13px;
+    margin-left: -10px;
+    margin-right: -12px;
+  }
+  .card-text:last-child {
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    font-size: 12px;
+  }
+  .list-group-item + .list-group-item {
+    border-top-width: 0;
+    padding-left: 6px;
+    font-size: 11px!important;
+    white-space: nowrap!important;
+    overflow: hidden!important;
+    text-overflow: ellipsis!important;
+    padding-right: initial!important;
+}.list-group-item.active {
+    padding-left: 7px;
+    font-size: 11px;
+}.font-11{
+    font-size: 11px
+}.ml-10{
+    margin-left: 10px;
+}
+
+}
